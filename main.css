@@ -1,0 +1,122 @@
+.btn-square {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #1541EE;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+.btn-square:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+
+.msr_btn13{
+  height:53px;
+  padding-top:1px;
+}
+.msr_btn13 a{
+  width: 180px;
+  padding:15px;
+  color:#ffffff;
+  font-size: 15px;
+  line-height: 120%;
+  text-align: center;
+  text-decoration: none;
+  background: #1541EE;
+  display: block;
+  position:relative;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -webkit-box-shadow:4px 4px 0px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow:4px 4px 0px 0px rgba(0,0,0,0.2);
+  box-shadow:4px 4px 0px 0px rgba(0,0,0,0.2);
+  -webkit-transition: 0.3s ease-out;
+  -moz-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+.msr_btn13 a:hover{
+  margin:4px 0 0 4px ;
+  -webkit-box-shadow:0 0 0px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow:0 0 0px 0px rgba(0,0,0,0.2);
+  box-shadow:0 0 0px 0px rgba(0,0,0,0.2);
+}
+
+.msr_h102 {
+  background: #1541EE;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-size: 30px;
+  margin-bottom: 30px;
+  padding: 8px 10px;
+  position: relative;
+  width: 100%;
+}
+
+/* h1青の三角形 */
+.msr_h102:before {
+  border: 10px solid transparent;
+  border-top: 10px solid #1B73BA;
+  content: "";
+  height: 0;
+  left: 10px;
+  position: absolute;
+  top: 100%;
+  width: 0;
+}
+.msr_h202 {
+  border-bottom: 2px solid #1B73BA;
+  box-sizing: border-box;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 20px;
+  padding: 7px 0 2px 0;
+}
+
+.big { font-size:40px}
+
+.m_big{font-size:70px;}
+
+
+.m_big{
+  color: #364e96;/*文字色*/
+  padding: 0.5em 0;/*上下の余白*/
+  border-top: solid 3px #364e96;/*上線*/
+  border-bottom: solid 3px #364e96;/*下線*/
+}
+
+hr {
+   border-width: 1px 0px 0px 0px; /* 太さ */
+   border-style: solid; /* 線種 */
+   border-color: blue;   /* 線色 */
+   height: 1px;         /* 高さ(※古いIE用) */
+}
+
+.sample1{
+			
+			
+			height: 150px;
+			position:relative;
+			top: 50px;
+			left:100px;
+			white-space: nowrap;
+		}
+.btn-flat-border {
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: #67c5ff;
+  border: solid 2px #67c5ff;
+  border-radius: 3px;
+  transition: .4s;
+}
+
+.btn-flat-border:hover {
+  background: #67c5ff;
+  color: white;
+}
